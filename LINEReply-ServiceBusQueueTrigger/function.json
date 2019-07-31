@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "busqueue01",
+      "connection": "ishiraokbot1907_RootManageSharedAccessKey_SERVICEBUS"
+    }
+  ],
+  "disabled": false
+}
